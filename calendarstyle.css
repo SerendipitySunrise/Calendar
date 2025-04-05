@@ -1,0 +1,127 @@
+.month-name {
+    background-color: #f8f9fa;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Day Header Styling */
+.day-header {
+    background-color: #e9ecef;
+}
+/* General Styles */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(https://i.pinimg.com/564x/76/76/2e/76762eb800603c9ea264f3c62983a418.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;
+
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+/* Container styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Title Styling */
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif bold;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #0056b3;
+}
+
+/* Month Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.month-table {
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+}
+
+/* Month Name Styling */
+.month-name {
+    background-color: #82a309;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Day Header Styling */
+.day-header th {
+    background-color: #e9ecef;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+td, th {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid #ddd;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+}
+
+td {
+    vertical-align: middle;
+}
+
+/* Empty Days Styling */
+td:not(:empty):hover {
+    background-color: #f1f8ff;
+    transition: background-color 0.3s ease;
+}
+
+/* Weekend Styling */
+td:nth-child(1) {
+    background-color: #f9f9f9;
+    color: #dc3545;
+    font-weight: bold;
+}
+
+/* Current Day Highlight */
+.current-day {
+    background-color: #0056b3;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #004085;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    td, th {
+        height: 40px;
+        padding: 5px;
+    }
+}
+
+.holiday {
+    font-size: 0.8rem;
+    color: rgb(41, 148, 68);
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
